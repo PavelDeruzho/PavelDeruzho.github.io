@@ -1,0 +1,42 @@
+.slider {
+ z-index: 9;
+
+ overflow: hidden;
+ margin: 0 0 7px;
+ position: relative;
+ }
+ .slider ul,
+ .slider li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .slider ul {
+ width: 9999px; 
+ }
+ .slider ul li {
+ list-style-type: none;
+ float: left;
+
+ }
+ .slider .nav {
+ position: absolute;
+ left: 46%;
+ bottom: 12px; 
+ }
+ .slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 10px 0 0;
+ width: 12px;
+ height: 12px;
+ border-radius: 50%;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ 
+ }
+ .slider .nav span.on {
+ background: #fea621;
+ }

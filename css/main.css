@@ -1,0 +1,424 @@
+body{
+	background-color: #100d0c;
+	padding:0;
+	font-family: 'Open Sans', Arial;
+	min-width: 420px;
+
+}
+.page-size{
+	max-width: 1280px;
+	position: relative;
+	overflow: hidden;
+	margin:0 auto;
+}
+#header{
+	height: 155px;
+	position: relative;
+	z-index: 10;
+	background: url("../images/bg_all.jpg") repeat-y top center;
+}
+#header .page-size{
+	 overflow: visible;
+}
+
+.heder-content{
+	height: 155px;
+
+}
+.heder_logo{
+	position: absolute;
+	top:25px;
+	left: 85px;
+
+}
+.res-btn{
+	position: absolute;
+	display: inline-block;
+	width: 373px;
+	height: 48px;
+	top:56px;
+	left: 33%;
+	overflow: hidden;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 400;
+	
+	background: url("../images/btn-white.png") no-repeat top center;
+}
+.res-btn a{
+	text-decoration: none;
+	color:#fff;
+	display: inline-block;
+	height: 48px;
+	margin: o auto;
+	line-height: 45px;
+}
+.res-btn:hover{
+	background: url("../images/btn-orange.png") no-repeat top center;
+
+}
+.res-btn a:hover{
+    color: #fea621;
+}
+.header-phone{
+	position: absolute;
+	right: 90px;
+	top:25px;
+	line-height: 18px;
+	text-align: right;
+	text-transform: uppercase;
+
+}
+.header-phone p{
+	font-size: 20px;
+	color:#ffffff;
+}
+p.header-address {
+	font-size: 15px;
+}
+.header-phone p span{
+	font-weight: 400;
+	font-size: 12px;
+	color: #737373;
+}
+.header-phone a{
+	color:#fea621;
+	font-size: 14px;
+	text-decoration: underline; 
+}
+.header-icon{
+	top:30px;
+	right: 328px;
+	position: absolute;
+}
+.heder-menu-page{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 155px;
+}
+.header-menu{
+	height: 35px;
+	margin:0 auto;
+	text-align: center;
+
+}
+.menu-item{
+	display: inline-block;
+	background-color: #ffffff;
+	height: 35px;
+	margin: auto -2px;
+	
+
+}
+.menu-item a{
+	display: inline-block;
+	height: 35px;
+	font-size: 15px;
+	padding: 0px 23px;
+  padding-top: 7px;
+  text-transform: uppercase;
+  color: #3f362a;
+  text-decoration: none;
+}
+.menu-item a:hover{
+	background-color: #c2000b;
+	color:#fff;
+}
+.red a{
+	background-color: #c2000b;
+	color:#fff;
+}
+.content{
+	background: url("../images/bg_all.jpg") repeat-y top center;
+}
+.carusel{
+	z-index: 1;	
+}
+.ContentText{
+	max-width: 1100px;
+  margin: 0px auto;
+  margin-top: 20px;
+
+}
+.ContentText p{
+	color:#999999;
+	font-size:14px;
+}
+.ContentText h1{
+	color:#fea621;
+	font-size: 43px;
+	font-weight: 300;
+	margin-bottom: 22px;
+}
+.ContentText h2{
+	color:#fea621;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 36px;
+	text-transform: uppercase;
+}
+.big-price-pr{
+	font-size: 112px;
+	font-weight: 900;
+	color: #bdbdbd;
+	letter-spacing:-13px;
+	    margin-top: -38px;
+}
+.big-price-com p{
+	font-size: 11px;
+	color:#999999;
+
+}
+.big-price-com {
+	margin-top: -15px;
+}
+.ContentText h2>span>a{
+	color: #fea621;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: underline;
+	
+	
+
+
+}
+.ContentText h2>span{
+	color: #fea621;
+	font-size: 14px;
+	top: 25px;
+	position: absolute;
+	margin-left: 10px;
+}
+.galerea{
+	background-color: #100d0c;
+}
+footer{
+	height: 145px;
+	background-color: #100d0c;
+}
+.footer-content{
+	max-width: 1100px;
+	position: relative;
+	height: 145px;
+	margin:0 auto;
+}
+.footer-logo{
+	position: absolute;
+	top:55px;
+}
+.footer-text-left{
+	position: absolute;
+	font-size: 13px;
+	color:#595959;
+	top:80px;
+	left:195px;
+	font-weight: 600;
+}
+.ever{
+	position: absolute;
+	top:80px;
+	right: 0px;
+	display: inline-block;
+}
+.footer-text-right{
+	position: absolute;
+	
+	top:80px;
+	right: 90px;
+}
+.footer-text-right a{
+	font-size: 10px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.menu-item>.dropdown-menu a{
+	background: #000000;
+	color: #fff;
+		font-size: 15px;
+	padding: 0px 23px;
+  padding-top: 7px;
+ 
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+
+} 
+.menu-item>.dropdown-menu a:hover{
+	background:#8a0008;
+	color:#fff;
+}
+.dropdown-menu{
+	margin:0px;
+	padding:0px;
+	background-color: #000;
+	border-top:5px solid #c2000b;
+	margin: 15px 14%;
+}
+.dropdown-menu li{
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.dropdown-menu li .active{
+		
+
+}
+.menu-item>.dropdown-menu>li.active a{
+	background:#8a0008;
+}
+
+
+
+.mobile-menu{
+	display: none;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin: 0px auto;
+}
+.dropdown-btn{
+	width: 300px;
+	height: 36px;
+	border-radius: none ;
+	background-color: #fff;
+	border: none;
+	text-align: left;
+	position: relative;
+	font-size: 15px;
+}
+.dropdown-btn>span{
+	position: absolute;
+	right: 16px;
+	top: 15px;	
+}
+.mobile-menu>.dropdown>.dropdown-menu{	
+	background: #fff;
+	color:#000;
+	position: absolute;
+	margin: 0px;
+	width: 300px;
+}
+.mobile-menu>.dropdown>.dropdown-menu li{
+	padding:0px;
+}
+
+@media (max-width: 1200px) {
+    .menu-item a{
+        font-size: 13px;
+        padding: 7px 15px 0px 15px;
+ 				
+    }
+    .menu-item .dropdown-menu > li {
+        
+        padding-right: 20px;
+   }
+   .menu-item .dropdown-menu > li>a{
+   			font-size: 12px;
+   }
+   .dropdown-menu{
+   			    margin: 14px 17%;
+   }
+   .res-btn{
+   		top: 60px;
+   }
+}
+@media (max-width: 980px) {
+			#header,.heder-content{
+				height: 285px;
+			}
+			.heder_logo{
+				text-align: center;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				position: static;
+			}
+			.res-btn{
+				left:4%;
+				top: 155px;
+				width: 278px;
+				background: url("../images/btn-white.png") no-repeat top center;
+			}
+			.header-icon{
+				top: 155px;
+
+			}
+			.header-phone{
+				top: 155px;
+			}
+	
+}
+@media (max-width: 950px){
+	 .menu-item .dropdown-menu > li {
+        
+        padding-right: 10px;
+   }
+   .menu-item .dropdown-menu > li>a{
+   			font-size: 11px;
+   }
+   .dropdown-menu{
+   			    margin: 14px 17%;
+   			  }
+}
+
+@media (max-width: 845px){
+	.mobile-menu{
+		display: block;
+	}
+	.header-menu{
+		display: none;
+	}
+	.res-btn{
+		top:190px;
+	}
+	.header-icon{
+		top: 190px;
+	}
+	.header-phone{
+		top: 190px;
+	}
+	#header,.heder-content{
+				height: 330px;
+			}
+	
+}
+
+@media (max-width: 730px){
+	.res-btn{
+		top:325px;
+		
+		    margin: 1px 20% 10px 15%;
+		
+	}
+	#header,.heder-content{
+				height: 390px;
+			}
+			.header-icon{
+				top:245px;
+				right: 245px;
+			}
+	.footer-logo{
+		text-align: center;
+    margin-top: 18px;
+    position: static;
+	}	
+	.footer-text-left{
+		position: static;
+		text-align: center;
+	}
+	.ever{
+		position: static;
+		text-align: center;
+		display: block;
+	}
+	.footer-text-right{
+		position: static;
+		text-align: center;
+
+	}
+
+}
